@@ -7,7 +7,11 @@ This is template of basic container for development using SAP CAP approach. This
 Initial container includes:
 
 * container with node.js;
-* install of components: curl, git, sqlite3;
+* install of popular components: curl, git, sqlite3;
+* install of components for SAP CAP, CF and HANA:
+  * cds
+  * hana-cli
+  * cf8-cli
 * non-root user: node
 * workdir: home/node
 * main extensions for CAP to use VS:
@@ -36,11 +40,6 @@ Initial container includes:
         "saposs.xml-toolkit",
         "dotjoshjohnson.xml",
         "SAPSE.hana-database-explorer" 
-
-* installing globally during initializaiton container these libraries for SAP CAP, CF and HANA:
-  * cds
-  * hana-cli
-  * cf8-cli
 
 * installing additional for Fiori generators, UI5, typescript
 
