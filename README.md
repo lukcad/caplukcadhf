@@ -58,7 +58,7 @@ Initial container includes:
 
 You should clone this by command to provide your own name of docker container project:
 
-    git clone https://github.com/lukcad/caplukcadh.git <your_name_container_project>
+    git clone https://github.com/lukcad/caplukcadhf.git <your_name_container_project>
 
 after clonning, you should change name of your container by opening file devcontainer.json and changing parameter "name" there.
 
@@ -94,7 +94,11 @@ Using container:
 
         hana-cli hc
 
-Enjoy, you have container which you can use for development your Full-Stack CAP applicaitons with access to SAP Hana Cloud based on SAP BTP CF.
+Enjoy, you have container which you can use for development your Full-Stack CAP applicaitons:
+
+  * with access to SAP Hana Cloud based on SAP BTP CF
+  * with access to xsuaa services based on SAP BTP
+  * with Fiori UI based on SAP UI5 with Typescript 
 
 Thank you,
 LUKCAD.
