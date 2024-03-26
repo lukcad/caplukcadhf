@@ -1,0 +1,43 @@
+{
+  "name": "SAP CAP - caplukcadhf",
+  "build": {
+    "dockerfile": "Dockerfile",
+    "args": { "VARIANT": "20" }
+  },
+  "customizations": {
+    "vscode": {
+	    // Add the IDs of extensions you want installed when the container is created.
+      // first five extenstions which lukcad took from page https://cap.cloud.sap/docs/get-started/jumpstart#_6-install-visual-studio-code
+      "extensions": [
+        "SAPSE.vscode-cds",
+        "dbaeumer.vscode-eslint",
+        "humao.rest-client",
+        "qwtel.sqlite-viewer",
+        "mechatroner.rainbow-csv",
+
+        "sapse.sap-ux-fiori-tools-extension-pack",
+        "sapos.yeoman-ui",
+        "hookyqr.beautify",
+        "coenraads.bracket-pair-colorizer-2",
+        "eamodio.gitlens",
+        "yzhang.markdown-all-in-one",
+        "fivepointseven.node-version",
+        "bengreenier.vscode-node-readme",
+        "christian-kohler.path-intellisense",
+        "saposs.sap-hana-driver-for-sqltools",
+        "sapse.vsc-extension-sa",
+        "mtxr.sqltools",
+        "pflannery.vscode-versionlens",
+        "visualstudioexptteam.vscodeintellicode",
+        "vscode-icons-team.vscode-icons",
+        "saposs.xml-toolkit",
+        "dotjoshjohnson.xml",
+        "SAPSE.hana-database-explorer" 
+      ]
+    }
+  },
+  // Use 'forwardPorts' to make a list of ports inside the container available locally.
+  "forwardPorts": [ 4004, 3010, 5000, 5001 ],
+  // Use this user to connect as a non-root user. See https://aka.ms/vscode-remote/containers/non-root.
+  "remoteUser": "node"
+}
