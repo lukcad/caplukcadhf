@@ -93,7 +93,7 @@ Using container:
 
         hana-cli hc
 
-Enjoy, you have container which you can use for development your Full-Stack CAP applicaitons:
+Enjoy, you have container which you can use for development of your Full-Stack CAP applicaitons:
 
   * with access to SAP Hana Cloud based on SAP BTP CF
   * with access to xsuaa services based on SAP BTP
